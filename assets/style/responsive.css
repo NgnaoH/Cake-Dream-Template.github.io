@@ -1,0 +1,72 @@
+.visible-xs {
+  display: none !important;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+  .pd-lg-120 {
+    padding: 0 120px;
+  }
+}
+@media (min-width: 992px) {
+  .text-table div .discount {
+    font-size: 100px;
+  }  
+  .slider-slides > li span,
+  .slider-slides > li p {
+    font-size: 25px;
+  }
+  .slider-slides > li .name {
+    font-size: 30px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+  .pd-md-20 {
+    padding: 0 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .container {
+    width: 750px;
+  }
+  .pd-sm-60 {
+    padding: 0 60px;
+  }
+}
+@media (min-width: 768px ) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 279px);
+    grid-template-areas:
+      "a a a b b b d d d e e e"
+      "a a a c c c f f f f f f";
+  }
+  .text-table div .discount {
+    font-size: 60px;
+  }
+  .pricing__cake .pricing__content .price__content {
+    background-color: #f4f3ef;
+    margin: -105px auto 0;
+    padding-top: 105px;
+  }
+  .pricing__cake .pricing__content .price__content h4 {
+    font-size: 30px;
+  }
+  .pricing__cake .pricing__content .price__content h4 span {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .hidden-xs {
+    display: none !important;
+  }
+  .visible-xs {
+    display: block !important;
+  }
+}
+

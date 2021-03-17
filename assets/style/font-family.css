@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "montserratbold";
+  src: url("../fonts/montserrat-bold-webfont.woff2");
+}
+@font-face {
+  font-family: "moon_flower_boldregular";
+  src: url("../fonts/moon_flower_bold-webfont.woff2");
+}
+@font-face {
+  font-family: "latoregular";
+  src: url("../fonts/lato-regular-webfont.woff2");
+}
